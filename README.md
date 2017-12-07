@@ -1,12 +1,13 @@
-# Hotel Datepicker
+# Hotel Datepicker Fork for CI update and integration
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
-A pure Javascript date range picker for hotels. Requires [Fecha](https://github.com/taylorhakes/fecha) and supports all modern browsers. Check the [demo here](http://lopezb.com/hoteldatepicker).
+A pure Javascript date range picker for hotels implementation for codeigniter. Implements also [Fecha](https://github.com/taylorhakes/fecha) and supports all modern browsers. Check the [demo here](http://lopezb.com/hoteldatepicker).
+Original git https://github.com/codeigniterpower/hotel-datepicker
 
 ![Hotel Datepicker Thumbnail](http://static.lopezb.com/hoteldatepicker/datepicker_card.png "Hotel Thumbnail")
 
-## Installation
+## Standalone Usage
 
 Include files:
 
@@ -17,14 +18,14 @@ Include files:
 
 ```
 
-## Usage
-
-Initialize with vanilla JS.
+Initialize the input target date range
 
 ```html
 <input id="input-id" type="text">
 
 ```
+
+Initialize with vanilla JS.
 
 ```js
 var hdpkr = new HotelDatepicker(document.getElementById('input-id'), options);
